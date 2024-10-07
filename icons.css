@@ -1,0 +1,11 @@
+
+a{
+    text-decoration: solid;
+    color: black;
+    background: linear-gradient(to top left, rgb(167, 6, 126), rgb(255, 92, 16));
+    align-items: center;
+    display: flex;
+    width: min-content;
+    gap: 5px;
+    border
+}
