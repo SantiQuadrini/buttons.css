@@ -1,5 +1,5 @@
 
-a{
+#a1{
     text-decoration: solid;
     color: black;
     background: linear-gradient(to top left, rgb(167, 6, 126), rgb(255, 92, 16));
@@ -7,5 +7,45 @@ a{
     display: flex;
     width: min-content;
     gap: 5px;
-    border
+    border-radius: 5px;
+    
+}
+#a1:hover{
+opacity: 0.9;
+transition: 200ms;
+scale: 1.1;
+}
+#a2{
+    text-decoration: solid;
+    color: rgb(255, 255, 255);
+    background-color: yellow;
+    align-items: center;
+    display: flex;
+    width: min-content;
+    gap: 5px;
+    border-radius: 5px;
+}
+#a2:hover{
+    opacity: 0.9;
+    transition: 300ms;
+    scale: 1.2;
+}
+#a3{
+    text-decoration: solid;
+    color: rgb(0, 0, 0);
+    background-color: rgb(44, 204, 44);
+    align-items: center;
+    display: flex;
+    width: min-content;
+    gap: 5px;
+    border-radius: 5px;
+}
+#a3:hover{
+    opacity: 0.9;
+    transition: 400ms;
+    scale: 1.1;
+}
+nav{
+    display: flex;
+    gap:15px;
 }
